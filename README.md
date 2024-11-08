@@ -8,8 +8,6 @@ This script was developed for the following SOC project blog:[How to Visualize F
 I couldn't find practical .NET examples for similar needs, so I hope this helps others.
 
 ![image](https://github.com/user-attachments/assets/2ce35fe7-22b9-4fcd-a70f-395fa2d264c5)
-
-
 ## Features
 - Logs failed RDP login attempts with country of origin.
 - Utilizes MaxMind’s GeoIP2 database locally for accurate location data.
