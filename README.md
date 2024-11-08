@@ -3,9 +3,12 @@
 
 A C# script that logs failed RDP events, including the country of origin and timestamp of each attempt. This project can be used in conjunction with Microsoft Sentinel and Azure to create a visual map of login attempts.
 
-This script was developed for the following SOC project blog: 
+This script was developed for the following SOC project blog:[How to Visualize Failed RDP Events Using C# & GeoIP2 in Azure](https://logos-red.com/blog/how-to-visualize-failed-rdp-events-using-c-geoip2-in-azure/)
 
 I couldn't find practical .NET examples for similar needs, so I hope this helps others.
+
+![image](https://github.com/user-attachments/assets/2ce35fe7-22b9-4fcd-a70f-395fa2d264c5)
+
 
 ## Features
 - Logs failed RDP login attempts with country of origin.
@@ -63,3 +66,7 @@ I couldn't find practical .NET examples for similar needs, so I hope this helps 
 
 3. **Run the .exe**:
    - Execute the `.exe` to start logging failed RDP events.
+
+### Example
+
+![image](https://github.com/user-attachments/assets/95fa796a-e361-4c3b-90fa-09603dd6ddf7)
